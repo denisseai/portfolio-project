@@ -8,8 +8,6 @@
     <meta name="author" content="">
     <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
 
-    <title>Denisse Anaya</title>
-
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/album/">
 
     <!-- Bootstrap core CSS -->
@@ -20,25 +18,19 @@
   </head>
 
   <body>
-
-
     <main role="main">
-
       <section class="jumbotron text-center">
         <div class="container">
-          <h1 class="jumbotron-heading">Details</h1>
+          <h1 class="jumbotron-heading" style=color:#4a8cee>Details</h1>
           <p class="lead text-muted">{{ job.summary }}</p>
           <img src="{{job.image.url}}" height=300></img>
           <p>
-            <a href="https://www.linkedin.com/in/denisseanaya/" class="btn btn-primary my-2">LinkedIn</a>
-            <a href="https://github.com/denisseai" class="btn btn-secondary my-2">My GitHub</a>
-            <a href="{% url 'home'%}" class="btn btn-primary my-2">Back</a>
+            <a href="{% url 'home'%}" class="btn btn-primary my-3">Back to Homepage</a>
           </p>
-
         </div>
       </section>
-
     </main>
+
     <footer class="text-muted">
       <div class="container">
         <p class="float-right">
