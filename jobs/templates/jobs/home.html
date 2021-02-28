@@ -31,7 +31,7 @@
     
         <div class="container">
           <h1 class="jumbotron-heading" style=color:#4a8cee>Denisse Anaya</h1>
-          <p class="lead text-muted">Hi - My stories/adventures during COVID-19 in Seattle</p>
+          <p class="lead text-muted">What I did during COVID-19 in Seattle</p>
           <img src="{% static 'location.jpg' %}" height=300></img>    
         </div>
       </section>
@@ -43,17 +43,11 @@
             {% for job in jobs.all %}
             <div class="col-md-4">
               <a href="{% url 'detail' job.id %}">
-              <div class="card mb-4 box-shadow">
+              <div class="card mb-4 box-shadow border-primary mb-3">
                 <img class="card-img-top" src="{{ job.image.url }}" alt="image for job">
                 <div class="card-body">
                   <p class="card-text">{{ job.summary }}</p>
                   <div class="d-flex justify-content-between align-items-center">
-                    <!-- TODO -->
-                    <!-- <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div> -->
-                    <!-- <small class="text-muted">1 mins</small> -->
                   </div>
                 </div>
               </div>
@@ -71,7 +65,7 @@
         <p class="float-right">
           <a href="#">Back to top</a>
         </p>
-        <p>Having fun with this profile project! Denisse Anaya all rights reserved</p>
+        <p>Having fun with this profile project! all rights reserved</p>
       </div>
     </footer>
 
