@@ -1,1 +1,1 @@
-# local blog/profile single page website using Postgres, Bootstrap, HTML, CSS
+# Single page built locally - blog/profile website using Postgres, Bootstrap, HTML, CSS
